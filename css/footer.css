@@ -1,0 +1,9 @@
+
+hr { margin: 0; }
+
+.rodape {
+  background-color: var(--cinzaClaro);
+  padding: 1em;
+}
+
+.rodape_lista { display: none; }

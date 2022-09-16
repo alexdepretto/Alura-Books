@@ -1,0 +1,29 @@
+
+@import url(header.css);
+@import url(banner.css);
+@import url(carrossel.css);
+@import url(card.css);
+@import url(topicos.css);
+@import url(contato.css);
+@import url(footer.css);
+
+:root {
+  --fundo: rgb(235, 236, 238);
+  --branco: white;
+  --preto: black;
+  --laranja: orange;
+  --cinzaEscuro: #474747;
+  --cinza: gray;
+  --cinzaClaro: rgb(240, 240, 240);
+  --azulMarinho: linear-gradient(97.5deg, #002f52 35.5%, #326589 165.35%);
+  --azulEscuro: #002f52;
+  --fontePrincipal: 'Poppins';
+  --fonteSecundario: 'Josefin Sans';
+}
+
+body {
+  background-color: var(--fundo);
+  font-family: var(--fontePrincipal), sans-serif;
+  font-size: 16px;
+  /*font-weight: 400;*/
+}
